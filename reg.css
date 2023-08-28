@@ -1,0 +1,117 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   background: url(reg5.avif);
+   background-size: cover;
+   /* background: linear-gradient(to right,rgb(90, 170, 245),rgb(4, 76, 209)); */
+   font-family: 'Open Sans', sans-serif;
+}
+/**************** main box **************/
+.mbox{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 100px;
+}
+/************************** left side box *******************/
+.lbox{
+   width: 290px;
+   height: 400px;
+   background-image: url(flat-lay-clean-office-desk_23-2148219267.avif); 
+   background-size: cover;
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+}
+h2{
+   margin-top: 150px;
+   text-align: center;
+   font-size: 20px;
+   text-transform: uppercase;
+   background-color: beige;
+}
+/*********************** right side box *******************/
+.rbox{
+   width: 480px;
+   height: 400px;
+   background-color:rgb(146, 195, 240);
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+h3{
+   text-align: center;
+   margin-top: 10px;
+   font-size: 25px;
+   color: aliceblue;
+}
+/******************** input box ****************/
+input{
+   display: block;
+   margin-top: 10px;
+   margin-left: 70px;
+   width: 350px;
+   height: 35px;
+   border-radius: 20px;
+   border: none;
+   background-color: whitesmoke;
+   padding: 10px;
+   outline: none;
+}
+input:focus{
+   border: 2px solid rgb(140, 0, 255);
+}
+::placeholder{
+   color: black;
+}
+
+.gen{
+   margin-top: 10px;
+   margin-left: 70px;
+}
+.db{
+   width: 130px;
+   height: 30px;
+   margin-left: 0;
+}
+.db1{
+   display: inline;
+   margin-left: 30px;
+}
+.db1 input{
+   display: inline;
+}
+
+select{
+   width: 85px;
+   height: 30px;
+   border: none;
+   border-radius: 20px;
+   padding: 4px;
+   outline: none;
+}
+select:focus{
+   border: 2px solid rgb(140, 0, 255);
+}
+button{
+   display: block;
+   width: 99px;
+   height: 40px;
+   margin-top: 10px;
+   margin-left: 200px;
+   cursor: pointer;
+   background-color:rgb(212, 0, 255);
+   color: white;
+   border-radius: 10px;
+   border: none;
+}
+.cbox{
+   display: inline;
+   width: 40px;
+   height: 15px;
+   margin-left: 100px;
+}
+span{
+   font-size: 15px;
+}

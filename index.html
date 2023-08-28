@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-------------- css link --------------------->
+    <link rel="stylesheet" href="reg.css">
+    <!------------------- icon  -------------->
+    <link rel="icon" href="https://www.freepnglogos.com/uploads/doraemon-png/blink-doraemon-photo-11.png">
+</head>
+<body>
+    <!------------------ main box ------------------->
+    <div class="mbox">
+        <!------------------ left side box ----------------------->
+        <div class="lbox">
+            <h2>Registration Form</h2>
+        </div>
+        <!-------------------------- right side box ------------------->
+        <div class="rbox">
+            <h3>Hello!</h3>
+            <!------------------------ form ----------------->
+            <form action="submit.html" >
+                <input type="text" placeholder="First Name" required> 
+                <input type="text" placeholder="Last Name">
+                <input type="password" placeholder="Password" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Phone Number">
+                <div class="gen">
+                    <label for="">Gender</label>
+                    <select name="gender" id="" >
+                        <option value="male">Male</option>
+                        <option value="female">FeMale</option>
+                        <option value="others">Other</option>
+                    </select>
+                    <div class="db1">
+                    <label for="">DOB</label>
+                    <input type="date" class="db">
+                    </div>
+                </div>
+                <input type="checkbox" class="cbox"><span>I Accept all terms & conditions</span>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
